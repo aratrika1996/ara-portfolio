@@ -49,7 +49,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="/public/Aratrika_CV.pdf"
+                  href="https://drive.google.com/file/d/1QqkgDDEFwyrxyoO7tj2XTqeqduy-D2CJ/view?usp=sharing" target="_blank"
                 >
                   Resume
                 </a>
@@ -64,7 +64,7 @@ export default function Home() {
               Web and Mobile Developer.
             </h3>
             <p className="text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl">
-              I build things for web and mobile. Join me down below and let us get cracking!
+              I build things for web and mobile. Join me down below and let&apos;s get cracking!
             </p>
             <div className="text-4xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href="mailto:aratrika.mukherjee.ca@gmail.com"><FaEnvelope /></a>
@@ -81,7 +81,14 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">About Me</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-            Hi
+            “Hello World!!”
+            I am Aratrika, a post-grad student at George Brown College majoring in Mobile Application Development and Strategy. I am passionate about creating innovative and user-friendly mobile and web apps that make a positive impact on people&apos;s lives.
+
+I am experienced in designing and building mobile applications for both iOS in Swift and Android in Kotlin. I have 2+ years of experience in full-stack web development, working with React, Vue, Bootstrap and other popular frontend technologies while also being adept at creating backend systems in Flask and Node JS. I also have experience working with databases like MongoDB and PostgreSQL.
+
+In addition to technical expertise, I have strong communication and collaboration skills which enable me to work effectively and thrive in fast-paced and collaborative environments. I can work closely with cross-functional teams to bring ideas to life and deliver quality products within project timelines
+
+Let&apos;s connect over a cup of coffee and discuss possibilities of creating something wonderful in tech.
             </p>
             
           </div>
@@ -136,12 +143,13 @@ export default function Home() {
           <div>
             <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-              Hi
+            Check out some of my work right here
             </p>
             
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
+              <a href="https://www.red.dev/" target="_blank">
               <Image
                 className="rounded-lg object-cover object-left"
                 width={"100%"}
@@ -149,8 +157,10 @@ export default function Home() {
                 layout="responsive"
                 src={reddev}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.urbanithaca.com/" target="_blank">
               <Image
                 className="rounded-lg object-cover object-left"
                 width={"100%"}
@@ -158,8 +168,10 @@ export default function Home() {
                 layout="responsive"
                 src={ui}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://www.fundraisin.app/" target="_blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -167,8 +179,10 @@ export default function Home() {
                 layout="responsive"
                 src={fr}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://catdrops.fundraisin.app/" target="_blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -176,8 +190,10 @@ export default function Home() {
                 layout="responsive"
                 src={catdrop}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://github.com/m-mraisi/hauler" target="_blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -185,8 +201,10 @@ export default function Home() {
                 layout="responsive"
                 src={hauler}
               />
+              </a>
             </div>
             <div className="basis-1/3 flex-1">
+              <a href="https://github.com/ytleevicky/android-yard-sale" target="_blank">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -194,6 +212,7 @@ export default function Home() {
                 layout="responsive"
                 src={yardsale}
               />
+              </a>
             </div>
           </div>
         </section>
