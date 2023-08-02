@@ -33,7 +33,7 @@ export default function Home() {
       <Head>
         <title>Aratrika Mukherjee</title>
         <meta name="description" content="Web & Mobile Developer" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logo.png" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
@@ -49,7 +49,7 @@ export default function Home() {
               <li>
                 <a
                   className="bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8"
-                  href="https://drive.google.com/file/d/1QqkgDDEFwyrxyoO7tj2XTqeqduy-D2CJ/view?usp=sharing" target="_blank"
+                  href="https://drive.google.com/file/d/1QqkgDDEFwyrxyoO7tj2XTqeqduy-D2CJ/view?usp=sharing" target="_blank" rel="noreferrer"
                 >
                   Resume
                 </a>
@@ -149,7 +149,7 @@ Let&apos;s connect over a cup of coffee and discuss possibilities of creating so
           </div>
           <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
             <div className="basis-1/3 flex-1 ">
-              <a href="https://www.red.dev/" target="_blank">
+              <a href="https://www.red.dev/" target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover object-left"
                 width={"100%"}
@@ -160,7 +160,7 @@ Let&apos;s connect over a cup of coffee and discuss possibilities of creating so
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://www.urbanithaca.com/" target="_blank">
+              <a href="https://www.urbanithaca.com/" target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover object-left"
                 width={"100%"}
@@ -171,7 +171,7 @@ Let&apos;s connect over a cup of coffee and discuss possibilities of creating so
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://www.fundraisin.app/" target="_blank">
+              <a href="https://www.fundraisin.app/" target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -182,7 +182,7 @@ Let&apos;s connect over a cup of coffee and discuss possibilities of creating so
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://catdrops.fundraisin.app/" target="_blank">
+              <a href="https://catdrops.fundraisin.app/" target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -193,7 +193,7 @@ Let&apos;s connect over a cup of coffee and discuss possibilities of creating so
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://github.com/m-mraisi/hauler" target="_blank">
+              <a href="https://github.com/m-mraisi/hauler" target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
@@ -204,7 +204,7 @@ Let&apos;s connect over a cup of coffee and discuss possibilities of creating so
               </a>
             </div>
             <div className="basis-1/3 flex-1">
-              <a href="https://github.com/ytleevicky/android-yard-sale" target="_blank">
+              <a href="https://github.com/ytleevicky/android-yard-sale" target="_blank" rel="noreferrer">
               <Image
                 className="rounded-lg object-cover"
                 width={"100%"}
