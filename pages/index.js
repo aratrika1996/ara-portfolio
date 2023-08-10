@@ -9,6 +9,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 import { useState } from "react";
 import aru from "../public/aru.png";
 import logo from "../public/logo.png";
+import logo_dark from "../public/logo_dark.png";
 import Image from "next/image";
 import html from "../public/html-5.png";
 import css from "../public/css-3.png";
@@ -38,7 +39,7 @@ export default function Home() {
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-          <Image src={logo} width={60} height={60} />
+          <Image src={darkMode ? logo : logo_dark} width={60} height={60} />
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
