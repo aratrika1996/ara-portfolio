@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node" # Latest Node.js version
+cache:
+  directories:
+    - ~/.npm
+    - ~/.cache
+install:
+  - npm install
+script:
+  - npm run build
