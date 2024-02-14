@@ -1,16 +1,24 @@
+dist: focal
+
 language: node_js
+
 node_js:
-  - "node" # Latest Node.js version
-cache:
-  npm: true
+  - "14"  # Use Node.js 14 (adjust as needed)
+
 before_install:
   - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
   - export NVM_DIR="$HOME/.nvm"
   - |
     # This loads nvm
     [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-  - sudo npm config set progress false -v
+  - nvm install 14  # Install Node.js 14 (adjust as needed)
+  - npm config set progress false  # Disable npm progress bar
+  - npm config set audit false  # Disable npm audit (optional, for faster builds)
+
 install:
-  - npm install
+  - npm install  # Install dependencies
+
 script:
-  - npm run build
+  - npm run build  # Build the Next.js application
+
+# Add deploy configuration if needed
