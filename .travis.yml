@@ -3,8 +3,9 @@ node_js:
   - "node" # Latest Node.js version
 cache:
   directories:
-    - ~/.npm
-    - ~/.cache
+    - $HOME/.cache/yarn
+    - node_modules
+    - .next/cache
 install:
   - npm install
 script:
