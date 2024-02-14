@@ -2,12 +2,15 @@ language: node_js
 node_js:
   - "node" # Latest Node.js version
 cache:
-  directories:
-    - $HOME/.cache/yarn
-    - node_modules
-    - .next/cache
+  npm: true
+before_install:
+  - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+  - export NVM_DIR="$HOME/.nvm"
+  - |
+    # This loads nvm
+    [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+  - sudo npm config set progress false -v
 install:
-  - npm config set progress true
   - npm install
 script:
   - npm run build
