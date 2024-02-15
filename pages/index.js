@@ -33,7 +33,7 @@ export default function Home() {
     <div className={darkMode ? "dark" : ""}>
       <Head>
         <title>Aratrika Mukherjee</title>
-        <meta name="description" content="Web & Mobile Developer" />
+        <meta name="description" content="Full-Stack Blockchain Developer" />
         <link rel="icon" href="/logo.png" />
       </Head>
       <main className=" bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40">
